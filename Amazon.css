@@ -1,0 +1,268 @@
+/* body styling */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #d8caca;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar styling */
+
+.navbar{
+    width: 100%;    
+    display: flex;
+    height: 4.5rem;
+    align-items: center;
+    background-color: #000000;
+    justify-content: space-evenly;
+}
+
+#logo{
+    width: 8rem;
+    height: 4rem;
+}
+
+#location, #signin, #orders, #cart{
+    color: white;
+}
+
+#search{
+    width: 47rem;
+    height: 3rem;    
+    display: flex;
+    color: black;
+    text-align: left;
+    align-items: center;
+    border-radius: 0.5rem;
+    margin: 4px 5px 4px 5px;
+    border: 2px solid white;
+    background-color: white;
+}
+
+#search #searchDropdownBox{
+    width: 3rem;
+    height: 3rem;
+    background-color: #d1c9c9;
+    border-style: none;
+    border-radius: 0.5rem;
+}
+
+#search #searchDropdownBox option{
+    background-color: white;
+}
+
+#search div{
+    margin: 0 0 0 1rem;
+}
+
+/* image slider styling */
+
+.img-slider-container{
+    z-index: 0;    
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-slider {
+    display: flex;
+    transition: transform 1s ease;
+}
+
+.img-slider img {
+    width: 100%;
+    height: 40rem;
+    object-fit: cover;
+}
+
+/* slider button styling */
+
+button {
+    top: 35%;
+    z-index: 1;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 0.5rem;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 0.7rem;
+}
+
+.next {
+    right: 0.7rem;
+}
+
+/* container1 styling */
+
+.container1{
+    top: 25rem;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    align-items: center;    
+    justify-content: center;
+}
+
+.subcontainer1, .subcontainer2{
+    width: 22rem;
+    height: 25rem;    
+    margin: 0 0.6rem 0 0.6rem;
+    border: 2px solid white;
+    background-color: white;
+}
+
+.subcontainer1 h1, .subcontainer2 h1,
+.subcontainer3 h1, .subcontainer4 h1{
+    font-size: 1.5rem;
+    padding: 0 1rem 0 1rem;
+}
+
+.subcontainer1 p,
+.subcontainer2 p,
+.subcontainer3 p{
+    font-size: 1rem;
+    padding: 0 1rem 0 1rem;
+}
+
+.first-subcontainer1, .second-subcontainer1,
+.first-subcontainer2, .second-subcontainer2,
+.first-subcontainer3, .second-subcontainer3{
+    display: flex;
+    flex-direction: row;
+}
+
+.first-subcontainer1 img, .second-subcontainer1 img,
+.first-subcontainer2 img, .second-subcontainer2 img,
+.first-subcontainer3 img, .second-subcontainer3 img{
+    width: 9rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+/* container2 styling */
+
+.container2{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: 7.5rem 1rem 0 0;
+}
+
+/* container3 styling */
+
+.container3{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: 1.8rem 1rem 0 0;
+}
+
+/* container4 styling */
+
+.container4{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: 1.8rem 1rem 0 0;
+}
+
+.subcontainer3, .subcontainer4{
+    width: 22rem;
+    height: 32rem;
+    margin: 0 0.6rem 0 0.6rem;
+    border: 2px solid white;    
+    background-color: white;
+}
+
+.subcontainer4 img{
+    height: 11rem;
+    position: relative;
+}
+
+.subcontainer4 p{
+    font-size: 0.8rem;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.first-subcontainer4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.first-subcontainer4 img{
+    padding: 0;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 0.7rem;
+    margin: 0 0.5rem 0 0.5rem;
+    border: 1px solid black;
+}
+
+/* signin styling */
+
+.signin{
+    width: 100%;
+    display: flex;
+    color: black;
+    position: relative;
+    margin: 1rem 0 0 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+
+.signin button{
+    width: 10rem;
+    display: flex;
+    height: 2.2rem;
+    color: black;
+    font-size: 1rem;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7ca00;
+}
+
+.signin p{
+    color: black;
+    font-size: 0.8rem;
+    margin: 3rem 0 1rem 0;
+}
+
+/* footer syling */
+
+.footer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+
+.footer h3{
+    margin: 2rem 0 2rem 0;
+}
+
+.footer p{
+    padding-bottom: -1rem;
+}
